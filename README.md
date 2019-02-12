@@ -224,3 +224,8 @@ for i in range(500):
 OUTPUT_FILENAME = 'out2.wav'
 librosa.output.write_wav(OUTPUT_FILENAME, x, fs)
 ```
+
+### Results
+
+Even with limited training examples this model, to an extent, is able to learn and transfer an audio style.
+Could be used for decompressing / denoising an audio signal
