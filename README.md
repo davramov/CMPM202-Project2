@@ -28,6 +28,9 @@ convert_dir_to_note_sequences \
   --output_file=$SEQUENCES_TFRECORD \dir
   --recursive
 ```
+*** This file was too large to upload to github (~ 6GB !!) . Google drive link instead :
+https://drive.google.com/file/d/1XQ21DgffydOM8mhV6yvAOsLf4B7Dz9TC/view?usp=sharing
+
 
 ### Step 3 : Create training and evaluation datasets 
 
@@ -38,6 +41,9 @@ drums_rnn_create_dataset \
 --output_dir=/tmp/drums_rnn/sequence_examples \
 --eval_ratio=0.10 # 10% of data is saved for evaluation
 ```
+
+*** These files were also too large for github. Google drive link : 
+https://drive.google.com/drive/folders/1HyOA9Iqmn4Z5bgn9KQBldZwB3N_kE4ZQ?usp=sharing
 ### Step 4 : Train the RNN
 
 ```
@@ -48,6 +54,7 @@ drums_rnn_train \
 --hparams="batch_size=64,rnn_layer_sizes=[64,64]" \
 --num_training_steps=20000
 ```
+ 
 ### Step 5 : Generate drum tracks
 ```
 drums_rnn_generate \
