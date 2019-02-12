@@ -69,6 +69,7 @@ drums_rnn_generate \
 
 ## Part 2 : Transform audio using an autoencoder NN
 Implementation of https://github.com/DmitryUlyanov/neural-style-audio-tf
+My google collab notebook: https://colab.research.google.com/drive/1KldHVhNDssUUHbeIc1irbV5Ljlv-71c4#scrollTo=NhzYJkJZ2179
 Teach a NN the style of one audio file and transfer it to another.
 This model has its limitations:
 - Can only train on one Style example file --> will either move to a different model or modify this one
