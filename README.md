@@ -238,4 +238,4 @@ librosa.output.write_wav(OUTPUT_FILENAME, x, fs)
 - Could be used for decompressing / denoising an audio signal
 - Trains pretty quick on CPU*
 
-- Google drive with examples https://drive.google.com/file/d/1NMtHD1jFtG53B9a-awC_BGF7KM4O0GRH/view?usp=sharing
+- Google drive with examples https://drive.google.com/drive/folders/1nraRYBnE5Nbb_xU8riSYNxkDK5GJqpGX?usp=sharing
